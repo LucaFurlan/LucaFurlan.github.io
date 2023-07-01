@@ -1,0 +1,224 @@
+*{
+    font-family: Tahoma, Verdana, sans-serif;
+    margin: 0;
+    height: auto;
+}
+
+
+
+.header_image_div{
+    background-image: url(https://www.brookings.edu/wp-content/uploads/2020/03/shutterstock_1322981270.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height:260px;
+}
+#background_div{
+    background-image: url(https://www.brookings.edu/wp-content/uploads/2020/03/shutterstock_1322981270.png);
+    background-repeat: repeat;
+    background-size: contain;
+    height: 1175px;
+}
+
+.menu{
+    background-color: rgba(0,0,0,0.85);
+    position: fixed;
+    width: 100%;
+    height: 45px;
+    
+    
+
+
+}
+.menu_item{
+
+    display: inline-block;
+    padding:10px;
+    border-width: 2px;
+    border-color: black;
+    padding-top:10px;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left: 0;
+    margin-right:0;
+
+}
+
+
+#right_div{
+    background-color: rgba(0,0,0,0);
+    float: right;
+    margin-right: 9%;
+}
+
+#first_elment{
+    float: left;
+}
+
+.menu_link:hover{
+    opacity: 0.8;
+    background-color: black;
+}
+
+.menu_link {
+    color:  white;
+    text-decoration: none;
+    font-size: 1.15em;  
+    text-align: center;
+    padding: 4px;
+    padding-bottom: 2px;
+    padding-top: 1px;
+}
+
+#ciao {
+    width: 100%;
+    display: block;
+}
+
+.main_div {
+
+    margin: 0 auto;
+    max-width: 85%;
+    background-color: white;
+    border-width: 3px;
+    border-color: black;
+    height: 1100px;
+
+
+}
+
+#right_nav {
+    float: right;
+    height: 100%;
+    /*! background-color: aquamarine; */
+    width: 30%;
+}
+
+#main_nav{
+min-width: 10&;
+height: cover;
+display: block;
+height: 100%;
+float: left;
+margin: 0 0;
+}
+
+#contenuto{
+    width: 100%;
+    height: auto;
+    float: center;
+    position: sticky;
+  top: 9%;
+  /*! margin: 5px; */
+  /*! background-color: #cae8ca; */
+  /*! border: 2px solid #4CAF50; */
+    padding-top: 10px;
+    margin-top: 100px;
+    /*! padding-right: 5px; */
+}
+
+.central_div{
+    display: inline-block;
+    width: 55%;
+    height: 95%;
+    padding-top:30px;
+    padding-left: 40px;
+
+}
+
+h1 {
+    font-size: 30px;
+    padding-bottom: 15px;
+    color:#007cff;
+    margin-top:20px;
+}
+h2 {
+    font-size: 20px;
+    padding-bottom:10px;
+}
+.immagine_articolo{
+
+    width: 100%;
+    margin-top: 10px
+
+}
+.testo_articolo{
+    padding-left:5px;
+    padding-top: 10px
+
+    
+}
+
+.articoli_centrali{
+    padding-bottom: 15px;
+    margin-bottom:27px;
+    display: inline-block;
+}
+.ns_art {
+    color: #007cff;
+    margin-bottom:20px;
+    border-block-end: 2px solid grey;
+
+}
+.lateral_image{
+    height: 100px;
+    width: 100px;
+    float: left;
+
+}
+#soon {
+    color: #007cff;
+    margin-bottom:10px;
+    border-block-end: 1px solid grey;
+    margin-right: 5px
+}
+.soon_title {
+    font-size: 16px;
+    margin-left: 3px;
+}
+.article_laterali{
+    display: inline-block;
+    margin-bottom:15px;
+}
+#pwd_input{
+    display: inline-block;
+    position: center;
+    margin-right: 5px;
+    height: 25px;
+    width:250px;
+    text-align: center;
+}
+.contenuto_articolo{
+ text-align: center;
+}
+#controlli > div {
+    background-color: blue;
+    height: 22px;
+    border:1px solid red;
+    margin:3px;
+
+}
+#controlli
+{
+    margin-top: 20px;
+    display: none;
+    margin-bottom: 16px;
+}
+#pwd_label{
+    display: block;
+    margin-top: 28px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    text-align: center;
+    width:100%;
+}
+#bottone{
+    display: block;
+    height:25px;
+    width: 75px;
+    margin: auto;
+    margin-top: 8px;
+    
+}
